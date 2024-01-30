@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+ul, ol{
+    list-style: none;
+}
+.main-header{
+    width: 100%;
+    height: 100px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: rgb(255, 255, 255);
+    
+}
+.body-background{
+    background-color: whitesmoke;
+}
+.logo-title{
+    display: inline-block; 
+    background-color: rgb(255, 255, 255);
+}
+h1{
+    font-size: 40px;
+    font-weight: 900;
+}
+h2{
+    font-size: 25px;
+    font-weight: 600;
+}
+hr{
+    background-color: whitesmoke;
+    border: solid;
+    border-color: whitesmoke;
+}
+li{
+    padding-top: 10px;
+    font-size: 21px;
+    font-weight: 500;
+    padding-left: 10px;
+}
+.box{
+    margin-right: 15%;
+    margin-top: 50px;
+    margin-left: 15%;
+    margin-bottom: 50px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+
+}
+.section-button{    
+    padding-left: 5%;
+    padding-bottom: 10px;
+}
+/*********only button************/
+.button{
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 15px;
+    border-color: gray;
+    
+}
+.button-add-task{
+    background-color: rgb(51, 156, 243);
+    color: rgb(255, 255, 255);
+}
+.button-add-section{
+    background-color: transparent;
+    color: gray;
+}
+
+/*********only button************/
+.section-list{
+    padding-top: 30px;
+    padding-left: 5%;
+}
+.done-sign{
+    color: rgb(0, 255, 0);
+    font-size: 20px;
+    vertical-align: middle;
+}
+.undone-sign{
+    color: rgb(255, 0, 0);
+    font-size: 20px;
+    vertical-align: middle;
+}
+/*************only bubble*******************/
+.bubble{
+    border-radius: 10px;
+    font-size: 12px;
+    width: 70px;
+    height: 25px;
+    display: inline-block;
+    line-height: 25px;
+    text-align: center;
+    font-weight: lighter;
+    color: white;
+}
+.blue{
+    background-color: rgb(51, 156, 243);
+}
+.green{
+    background-color: green;
+}
+.orange{
+    background-color: orange;
+}
+.violet{
+    background-color: violet;
+}
+.yellow-green{
+    background-color: rgb(116, 173, 29);
+}
+.plum{
+    background-color: plum;
+}
+/*************only bubble*******************/
